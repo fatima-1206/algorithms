@@ -2,6 +2,28 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+// Example:
+// Enter the length of ribbon
+// 11
+// Enter the 3 values of lengths allowed
+// 2
+// 5
+// 7
+// Maximum number of pieces in which the ribbon can be cut is 4
+// The dp array is as follows: 
+// Length 0 : 0
+// Length 1 : -1
+// Length 2 : 1
+// Length 3 : -1
+// Length 4 : 2
+// Length 5 : 1
+// Length 6 : 3
+// Length 7 : 2
+// Length 8 : 4
+// Length 9 : 3
+// Length 10 : 5
+// Length 11 : 4
+// Output: 4
 int main()
 {
       int i, j, k, n;
